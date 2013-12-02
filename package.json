@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/parroit/simplator-subtemplates.git"
   },
+    "scripts": {
+        "test": "grunt test"
+    },
   "bugs": {
     "url": "https://github.com/parroit/simplator-subtemplates/issues"
   },
