@@ -11,9 +11,9 @@
     "type": "git",
     "url": "https://github.com/parroit/simplator-subtemplates.git"
   },
-    "scripts": {
-        "test": "grunt test"
-    },
+  "scripts": {
+    "test": "grunt test"
+  },
   "bugs": {
     "url": "https://github.com/parroit/simplator-subtemplates/issues"
   },
@@ -33,5 +33,8 @@
     "expect.js": "~0.2.0",
     "grunt-contrib-watch": "~0.5.3"
   },
-  "keywords": []
+  "keywords": [],
+  "dependencies": {
+    "simplator": "0.0.5"
+  }
 }
