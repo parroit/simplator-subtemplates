@@ -1,4 +1,4 @@
-# simplator-subtemplates [![Build Status](https://secure.travis-ci.org/parroit/simplator-subtemplates.png?branch=master)](http://travis-ci.org/parroit/simplator-subtemplates)  [![Npm module](https://badge.fury.io/js/simplator-subtemplates.png)](https://npmjs.org/package/simplator-subtemplates)
+# simplator-subtemplates [![Build Status](https://secure.travis-ci.org/parroit/simplator-subtemplates.png?branch=master)](http://travis-ci.org/parroit/simplator-subtemplates)  [![Npm module](https://badge.fury.io/js/simplator-subtemplates.png)](https://npmjs.org/package/simplator-subtemplates) [![Code Climate](https://codeclimate.com/github/parroit/simplator-subtemplates.png)](https://codeclimate.com/github/parroit/simplator-subtemplates)
 
 Simplator filters to run sub-templates.
 Allow simplator to run sub-templates
