@@ -38,6 +38,28 @@ var tmplt = simplator.compile("{name | sub('nameTmpl')}\n{address | sub('address
 
 Results will contains "Andrea,Parodi\nvia Casata,Genoa"
 
+*OR*, to render arrays sub-context, use:
+
+ ```javascript
+var tmplt = simplator.compile("{name | sub('nameTmpl')}\n{addresses | subEach('addressTmpl','\t') }");
+
+results = tmplt({
+    name: {
+        first: "Andrea",
+        last: "Parodi"
+    },
+    addresses: [{
+        street: "via Casata",
+        city: "Genoa"
+    },{
+        street: "Another address",
+        city: "Roma"
+    }]
+});
+```
+
+Results will contains "Andrea,Parodi\nvia Casata,Genoa\tAnother address,Roma"
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style.
